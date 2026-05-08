@@ -21,11 +21,11 @@ TwoWire I2C_OLED = TwoWire(0);
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &I2C_OLED, -1);
 
 // ==================== CONFIGURATION ====================
-const char* ssid = "BSNL_FTTH";
-const char* password = "9751310682";
+const char* ssid = "WIFI_NAME";
+const char* password = "PASSWORD";
 
 // IMPORTANT: Replace with your actual Google Apps Script URL after deploying
-const String GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyrUj49_PSRTVFvkSy5D9JYNUyhABDlPB5mQFuYhxvBTjyseCkc8WRsGuLlgV7uYaVd/exec";
+const String GOOGLE_SCRIPT_URL = "YOUR_SCRIPT_URL";
 
 String API_KEY = "";
 String SECRET_KEY = "";
